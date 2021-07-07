@@ -5,8 +5,8 @@
 
 ![image](https://user-images.githubusercontent.com/53051443/124828931-8c9c8880-df3d-11eb-987e-3f40936f60c2.png)
 
-##Esto es lo que me refiero al principio en types 
+Esto es lo que me refiero al principio en types 
 
-##Comands 
+## Comands 
 
-### go run main.go
+go run main.go
