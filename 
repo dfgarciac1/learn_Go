@@ -1,0 +1,11 @@
+[33mcommit 8b9c52236f7b5debf891260700eb3991a48df715[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: DavidF GarciaC <david.garcia@jikkosoft.com>
+Date:   Wed Jul 7 15:51:40 2021 -0500
+
+     Add functions customer and greet
+
+[33mcommit a9483314f24c83d4c2989efc5b596101c3c35ccb[m
+Author: DavidF GarciaC <david.garcia@jikkosoft.com>
+Date:   Wed Jul 7 15:45:15 2021 -0500
+
+    first commit

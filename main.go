@@ -6,10 +6,12 @@ import (
 	"net/http"
 )
 
+//type is like a object
 type Customer struct {
-	Name    string
-	City    string
-	Zipcode string
+	//When put Json: this convert  the headers in full-name , city ....
+	Name    string `json:"full-name"`
+	City    string `json:"city"`
+	Zipcode string `json:"zipcode"`
 }
 
 func main() {
@@ -29,5 +31,7 @@ func getAllCustomer(w http.ResponseWriter, req *http.Request) {
 	customers := []Customer{
 		{Name: "David", City: "San Francisco", Zipcode: "12"},
 	}
+	//Transform the data (header) to Json when the request is given
+	w.Header().Add("Content-type", "aplications/json")
 	json.NewEncoder(w).Encode(customers)
 }
